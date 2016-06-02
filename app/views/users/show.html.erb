@@ -1,0 +1,11 @@
+
+Welcome <%= @user.name %>
+
+<% if @user.admin %>
+	<p>You are an ADMIN!</p> <br>
+<% end %>
+
+Height: <%= @user.height %> <br>
+
+Mood: <%= @user.mood %> <br>
+Tickets: <%= @user.tickets %> <br>
